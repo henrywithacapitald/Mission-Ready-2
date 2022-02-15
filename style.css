@@ -1,0 +1,132 @@
+*/ {
+
+}
+body{
+    background-color:black;
+}
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+    font-family: Verdana;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #2ce414;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(218, 205, 205);
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #c106e6;
+    color: rgb(37, 233, 102);
+    color: ;
+    
+  }
+  .logo {
+    width: 200px;
+    cursor: pointer;
+    border-radius: 80%;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+
+    
+  }
+  .maintext {
+      /* color: green; */
+     font-size: 30px;
+     text-align:center;
+     text-transform: uppercase;
+     position: absolute;
+    top: 10.7em;
+     transform: translateY(-50%);
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     text-align: center;
+     font-size: 4em;
+     font-family: sans-serif;
+     /* background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+     text-shadow: 0 0 2px rgba(235, 22, 22, 0.5);
+  */
+
+     
+  }
+  hr.style-rainbow {
+    border: 0;
+    height: 4px;
+    background: #ff0000;
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ff0000), color-stop(25%,#ffff00), color-stop(50%,#00ff00), color-stop(75%,#00ffff), color-stop(100%,#0000ff));
+  }
+  button {
+    width: 200px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #bd8203;
+    background: transparent;
+
+    color: rgb(22, 170, 113);
+    cursor: pointer;
+/*     position: relative;
+   */
+
+    
+}
+span {
+    background: #9005ac;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    position: relative ;
+}
+button:hover span {
+    width: 100%;
+}
+button:hover { 
+    border: none;
+} */
+
+.dark-mode { 
+  background-color: white; !important
+  color: white;
+}
+
+#top {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(250, 0, 0); /* Set a background color */
+  color: green; /* Text color */
+  cursor: crosshair; /* Add a mouse pointer on hover */
+  padding: 10; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#top:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}s
